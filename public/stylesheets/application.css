@@ -2,3 +2,31 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+
+body {
+  background-image: url('/images/clouds.png');
+  background-position: top;
+  background-color: #cde3f5;
+  background-repeat: repeat-x;
+}
+
+* {
+  margin: 0;
+}
+
+html,body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -10em;
+}
+
+.footer, .push {
+  height: 10em;
+  background-image: url('/images/trees.png');
+  background-position: bottom;
+}
